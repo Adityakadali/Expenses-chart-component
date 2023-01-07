@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-  @apply bg-red-50 grid place-content-center w-screen min-h-screen;
+  @apply bg-orange-100 grid place-content-center w-screen min-h-screen;
 }
