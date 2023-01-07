@@ -16,7 +16,9 @@ function App() {
       <div className="bg-red-500/80 px-4 py-6 rounded-xl text-white w-full flex justify-between items-center shadow-md">
         <div className="text-red-50">
           <h2>My Balance</h2>
-          <p className="font-bold before:content-['$'] text-xl mt-1">{total}</p>
+          <p className="font-bold before:content-['$'] text-xl mt-1">
+            {1000 - total}
+          </p>
         </div>
         <div>
           <img src={logo} alt="brand logo" />
@@ -50,7 +52,7 @@ function App() {
         <div className="mt-4">
           <h2 className="text-slate-600/80 font-semibold">Total this month</h2>
           <div className="flex justify-between items-center">
-            <p className="font-bold text-2xl">$ 478.33</p>
+            <p className="font-bold text-2xl">$ {total}</p>
             <div className="text-right">
               <p className="font-bold">+2.4%</p>
               <p className="text-slate-600/80 font-semibold">form last month</p>
